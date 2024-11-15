@@ -6,6 +6,11 @@
 
 -Paso 3: Activar ambiente: TPvenv\Scripts\activate
 
--Paso 4:Ejecutar requirements.txt para instalar todos los paquetes necesarios: pip install -r requirements.txt
+-Paso 4: Ejecutar los siguientes comandos para no tener problemas con la libreria ydata-profiling: 
 
--Paso 5: Ejecutar.
+!pip uninstall pandas-profiling
+!pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip
+
+-Paso 5: Ejecutar requirements.txt para instalar todos los paquetes necesarios: pip install -r requirements.txt
+
+-Paso 6: Ejecutar notebook.

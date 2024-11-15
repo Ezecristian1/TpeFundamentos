@@ -126,4 +126,3 @@ websocket-client==1.8.0
 wget==3.2
 widgetsnbextension==4.0.13
 wordcloud==1.9.3
-ydata-profiling @ https://github.com/pandas-profiling/pandas-profiling/archive/master.zip#sha256=7f77840cf7957b8cb8d138bf01a9bcde10da4889a871625ea53ab27835fe9aa0
